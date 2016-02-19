@@ -1,7 +1,7 @@
 // animates site title on scroll event
 
 var SPEED = 500; // how fast you want the frames to change in ms (lower than 200 ms gets glitchy in some browsers)
-var TIMEOUT = (SPEED * 2) - (SPEED/2); // how long after stop scrolling to animate
+var TIMEOUT = 1.5 * SPEED; // how long after stop scrolling to animate
 
 var interval;
 
